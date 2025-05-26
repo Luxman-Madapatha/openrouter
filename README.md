@@ -80,8 +80,6 @@ sudo systemctl restart openrouter
 sudo systemctl stop openrouter
 ```
 
----
-
 ## API Endpoints
 
 ### Root Endpoint
@@ -90,33 +88,6 @@ GET /
 ```
 Returns a basic HTML response.
 
-### Chat Completions
-```http
-POST /v1/chat/completions
-```
-Handles AI-generated chat completions via OpenRouter.
-
-### Model Retrieval
-```http
-GET /v1/models
-```
-Fetches available AI models.
-
----
-
-## Caching Mechanism
-The application includes a **cache system** that stores responses for a set duration to reduce redundant API calls.
-
----
-
-## Deployment Using Docker
-To deploy using **Docker**, run:
-```sh
-docker build -t openrouter-app .
-docker run -p 8000:8000 openrouter-app
-```
-
----
 
 ## License
 This project is licensed under **MIT License**.
