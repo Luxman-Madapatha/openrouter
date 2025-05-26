@@ -97,8 +97,7 @@ def get_openai_response(api_key: str, question: str, token: str):
 	"response_usage": completion.usage,
         "llm_model":completion.model,
         "created": completion.created,
-        "system_fingerprint": completion.system_fingerprint,
-        "choices": completion.choices,
+        "system_fingerprint": completion.system_fingerprint,        
     }
 
 
