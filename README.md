@@ -84,9 +84,9 @@ sudo systemctl stop openrouter
 
 ## API Endpoints
 
-### Root Endpoint
+### Query Endpoint
 ```http
-GET /
+POST /query
 ```
 Returns a basic HTML response.
 
