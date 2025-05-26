@@ -1,7 +1,7 @@
 # OpenRouter AI - FastAPI Application
 
 ## Overview
-This project is a **FastAPI-based reverse proxy** for OpenRouter, designed for **efficient AI model request handling** with features such as **request caching, streaming responses, and authentication**.
+This project is a **FastAPI-based reverse proxy** for OpenRouter, designed for **efficient AI model request handling** with features such as **request caching, streaming responses, and authentication**. It's based on this article https://huggingface.co/blog/lynn-mikami/llm-free
 
 ## Features
 - **FastAPI-based API** for handling OpenRouter requests.
