@@ -33,8 +33,10 @@ pip install -r requirements.txt
 ```
 
 ### 3. Set Up Environment Variables
-```sh
-export API_KEYS="your-api-key-here"
+```
+Add to your .env file
+OPENROUTER_API_KEY = "key"
+API_VALIDATION_TOKEN = "key"
 ```
 
 ### 4. Create a Systemd Service File
